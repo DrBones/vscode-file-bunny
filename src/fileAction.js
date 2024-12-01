@@ -222,7 +222,7 @@ async function openActiveFileExternal() {
 
 async function moveActiveFile() {
   if (util.isWorkspaceOpen() === false) {
-    vscode.window.showErorMessage(
+    vscode.window.showErrorMessage(
       "You cannot move an active file if there is no open workspace."
     );
     return;
